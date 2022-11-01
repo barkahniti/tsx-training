@@ -1,0 +1,52 @@
+.login-wrp{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-ctn{
+    color: #f4f4f4;
+    background-color: #849EB0;
+
+    width: 450px;
+    max-height: 720px;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 32px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sign-up2-ctn{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    cursor: default;
+}
+
+.pointer {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pointer:hover{
+    text-shadow: 4px 4px 8px #1E2329;
+
+}
